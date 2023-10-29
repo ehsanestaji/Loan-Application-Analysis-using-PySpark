@@ -1,2 +1,80 @@
-# Income-Analysis-with-Spark
-In-depth analysis of the UCI Adult Income dataset using Apache Spark. The project demonstrates the application of various big data processing techniques, including data cleansing, exploratory data analysis (EDA), feature engineering, and machine learning. It aims to predict whether an individual earns more than $50,000
+# 📊 Loan Application Analysis using PySpark
+
+## 📌 Description
+
+This repository contains an end-to-end analysis of loan applications using PySpark. It includes data manipulation, feature engineering, and binary classification models. 
+
+## 📚 Table of Contents
+
+1. [🛠️ Installation](#installation)
+2. [📋 Data Overview](#data-overview)
+3. [📁 Project Structure](#project-structure)
+4. [🔨 Usage](#usage)
+5. [🤝 Contributing](#contributing)
+6. [📜 License](#license)
+
+## 🛠️ Installation
+
+Clone this repository and navigate to its directory:
+
+```bash
+git clone https://github.com/yourusername/yourrepository.git
+cd yourrepository
+```
+
+## 📋 Data Overview
+
+### application_train.csv
+
+- **Number of Entries**: `307,511`
+- **Number of Columns**: `122`
+- **Column Types**: `Float64(65), Int64(41), Object(16)`
+
+#### 📄 Sample Data
+
+| SK_ID_CURR | TARGET | NAME_CONTRACT_TYPE | CODE_GENDER | FLAG_OWN_CAR | ... |
+|------------|--------|--------------------|-------------|--------------|-----|
+| 100002     | 1      | Cash loans         | M           | N            | ... |
+| 100003     | 0      | Cash loans         | F           | N            | ... |
+| 100004     | 0      | Revolving loans    | M           | Y            | ... |
+| 100006     | 0      | Cash loans         | F           | N            | ... |
+| 100007     | 0      | Cash loans         | M           | N            | ... |
+
+## 📁 Project Structure
+
+### 📓 Notebooks
+
+- `Income-Spark.ipynb`: Main Jupyter Notebook for the project.
+
+#### 📝 Sections in Notebook
+
+1. **Import Essential Libraries**: Libraries like `os` and `pandas` are imported.
+2. **Initialize PySpark Configuration**: The Spark Configuration and Context are initialized.
+3. **Import PySpark and Initialize**: PySpark library is imported and Spark Session is initialized.
+
+#### 💻 Code Snippets
+
+- Importing essential libraries
+  ```python
+  import os
+  import pandas as pd
+  ```
+
+- Initializing PySpark Configuration
+  ```python
+  from pyspark import SparkConf, SparkContext
+  ```
+
+- Initializing Spark Session
+  ```python
+  import pyspark
+  from pyspark.sql import SparkSession
+  ```
+
+## 🔨 Usage
+
+To run the Jupyter Notebook, execute:
+
+```bash
+jupyter notebook Income-Spark.ipynb
+```
