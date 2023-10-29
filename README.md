@@ -6,23 +6,14 @@ This repository contains an end-to-end analysis of loan applications using PySpa
 
 ## 📚 Table of Contents
 
-1. [🛠️ Installation](#installation)
-2. [📋 Data Overview](#data-overview)
-3. [📁 Project Structure](#project-structure)
-4. [🔨 Usage](#usage)
-5. [🤝 Contributing](#contributing)
-6. [📜 License](#license)
+1. [📋 Data Overview](#data-overview)
+2. [📁 Project Structure](#project-structure)
+3. [🔨 Usage](#usage)
 
-## 🛠️ Installation
-
-Clone this repository and navigate to its directory:
-
-```bash
-git clone https://github.com/yourusername/yourrepository.git
-cd yourrepository
-```
 
 ## 📋 Data Overview
+
+The data for this project is sourced from the Kaggle competition [Home Credit Default Risk](https://www.kaggle.com/competitions/home-credit-default-risk/data). The goal of the competition is to predict the capability of each applicant in repaying a loan.
 
 ### application_train.csv
 
