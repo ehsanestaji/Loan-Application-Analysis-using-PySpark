@@ -67,5 +67,5 @@ The data for this project is sourced from the Kaggle competition [Home Credit De
 To run the Jupyter Notebook, execute:
 
 ```bash
-jupyter notebook Income-Spark.ipynb
+jupyter notebook Loan-Application-PySpark.ipynb
 ```
